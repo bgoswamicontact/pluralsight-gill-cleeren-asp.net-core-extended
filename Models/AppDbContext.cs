@@ -1,9 +1,9 @@
-﻿using BethenysPieShop.Models;
-using Microsoft.AspNetCore.Identity;
+﻿using BethenysPieShop.Auth;
+using BethenysPieShop.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-public class AppDbContext : IdentityDbContext<IdentityUser>
+public class AppDbContext : IdentityDbContext<ApplicationUser>
 {
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
     {

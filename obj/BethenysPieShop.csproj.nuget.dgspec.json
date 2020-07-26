@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bgosw\\source\\Repos\\BethenysPieShop\\BethenysPieShop.csproj": {}
+    "C:\\Github-Code\\pluralsight-gill-cleeren-asp.net-core-extended\\BethenysPieShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bgosw\\source\\Repos\\BethenysPieShop\\BethenysPieShop.csproj": {
+    "C:\\Github-Code\\pluralsight-gill-cleeren-asp.net-core-extended\\BethenysPieShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bgosw\\source\\Repos\\BethenysPieShop\\BethenysPieShop.csproj",
+        "projectUniqueName": "C:\\Github-Code\\pluralsight-gill-cleeren-asp.net-core-extended\\BethenysPieShop.csproj",
         "projectName": "BethenysPieShop",
-        "projectPath": "C:\\Users\\bgosw\\source\\Repos\\BethenysPieShop\\BethenysPieShop.csproj",
+        "projectPath": "C:\\Github-Code\\pluralsight-gill-cleeren-asp.net-core-extended\\BethenysPieShop.csproj",
         "packagesPath": "C:\\Users\\bgosw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bgosw\\source\\Repos\\BethenysPieShop\\obj\\",
+        "outputPath": "C:\\Github-Code\\pluralsight-gill-cleeren-asp.net-core-extended\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,7 +61,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.3, )"
             }
           },
           "imports": [
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

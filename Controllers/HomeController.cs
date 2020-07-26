@@ -1,6 +1,8 @@
 ﻿using BethenysPieShop.Models;
 using BethenysPieShop.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace BethenysPieShop.Controllers
 {
@@ -19,6 +21,12 @@ namespace BethenysPieShop.Controllers
                 Pies = _pieRepository.PiesOfTheWeek
             };
             return View(pies);
+        }
+        [AllowAnonymous]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel{ 
+                RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
